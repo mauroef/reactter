@@ -1,0 +1,29 @@
+.root {
+  margin: 0 1em;
+  text-align: center;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  height: 50vh;
+}
+
+.text {
+  color: #888;
+}
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.button {
+  border: #666;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  background-color: #aaa;
+  color: #eaeaea;
+  margin-bottom: 10px;
+}
